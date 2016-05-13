@@ -88,7 +88,7 @@
 						data.push(members[cardMembers[q]]);
 					}
 					
-					csv[i] = data;
+					csv.push(data);
 					
 				}
 				
@@ -162,7 +162,7 @@
 
 	}
 	
-	function test(value) {
+	function trace(value) {
 		
 		if (console) console.log(value);
 		else alert(value);
